@@ -12,15 +12,21 @@ By generating a ZK Proof that corroborates if the owner of the package is who he
 ##Step by step
 
 1. A purchase is made in a marketplace
-   ![1]("C:\Users\gerar\OneDrive\Escritorio\1.png")
+<img width="800" alt="1" src="https://github.com/geraBarboni/dShips/assets/63870012/11035e30-c64a-4239-949d-6448ab4a8874">
+
 2. The product needs to be purchased, so the purchase becomes a package.
-   ![2]("C:\Users\gerar\OneDrive\Escritorio\2.png")
+<img width="904" alt="2" src="https://github.com/geraBarboni/dShips/assets/63870012/7e946ca6-ee69-425a-8659-8bebaad7c843">
+
 3. A verified delivery person chooses which parcels to transport
-   ![3]("C:\Users\gerar\OneDrive\Escritorio\3.png")
+<img width="840" alt="3" src="https://github.com/geraBarboni/dShips/assets/63870012/c009a0b9-b1e8-4502-89ed-e9ded23dffe6">
+<img width="976" alt="carrier zk" src="https://github.com/geraBarboni/dShips/assets/63870012/42bb1b6c-4027-4c2b-bd56-c639c7537c3c">
+
 4. The delivery person goes to the store and picks up the package to be transported
-   ![4]("C:\Users\gerar\OneDrive\Escritorio\4.png")
+<img width="840" alt="4" src="https://github.com/geraBarboni/dShips/assets/63870012/fdd707ca-a1f9-4435-9a49-f48a3b4972a2">
+
 5. The delivery person goes to the buyer's address and verifies that he is the owner of the package to be delivered
-   ![5]("C:\Users\gerar\OneDrive\Escritorio\5.png")
+<img width="840" alt="5" src="https://github.com/geraBarboni/dShips/assets/63870012/ab58dcd9-ab59-4206-a659-c47032a86857">
+<img width="976" alt="buyer zk" src="https://github.com/geraBarboni/dShips/assets/63870012/fd52af26-8216-4b4c-8c76-0090c890b098">
 
 ## How we built it
 
