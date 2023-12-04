@@ -1,4 +1,4 @@
-export const ADDRESS = "0x8Bd35956A282dAc07cf7B3436b1863d2AC7420D6"; //Paste address here
+export const ADDRESS = "0x63136dF80Ca60766Db255E65812cc0a074aad71D"; //Paste address here
 export const DECIMALS = 18; //The number of decimals you chose when deploying the contract
 export const ABI = [
   {

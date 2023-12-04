@@ -78,7 +78,7 @@ const Create = () => {
         </div>
         <div className="flex flex-col gap-2">
           <label>From address</label>
-          <div className="flex gap-2">
+          <div className="flex flex-col md:flex-row gap-2">
             <input
               className="px-2 py-1 border-2 rounded-full border-coreColors-secondary focus:border-coreColors-primary"
               placeholder="Street"
@@ -92,7 +92,7 @@ const Create = () => {
               value={fromAddressNumber}
             ></input>
           </div>
-          <div className="flex gap-2">
+          <div className="flex flex-col md:flex-row gap-2">
             <input
               className="px-2 py-1 border-2 rounded-full border-coreColors-secondary focus:border-coreColors-primary"
               placeholder="City"
@@ -117,7 +117,7 @@ const Create = () => {
         </div>
         <div className="flex flex-col gap-2">
           <label>To address</label>
-          <div className="flex gap-2">
+          <div className="flex flex-col md:flex-row gap-2">
             <input
               className="px-2 py-1 border-2 rounded-full border-coreColors-secondary focus:border-coreColors-primary"
               placeholder="Street"
@@ -131,7 +131,7 @@ const Create = () => {
               value={toAddressNumber}
             ></input>
           </div>
-          <div className="flex gap-2">
+          <div className="flex flex-col md:flex-row gap-2">
             <input
               className="px-2 py-1 border-2 rounded-full border-coreColors-secondary focus:border-coreColors-primary"
               placeholder="City"

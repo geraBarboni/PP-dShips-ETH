@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <main className={`${inter.className} bg-schemes-light-surfaceContainer`}>
-      <div className="flex flex-col gap-4 w-11/12 mx-auto bg-schemes-light-surfaceContainerLowest p-4 h-[94.5vh] rounded-3xl">
+      <div className="flex flex-col gap-4 w-11/12 mx-auto bg-schemes-light-surfaceContainerLowest p-4 min-h-[94.5vh] rounded-3xl">
         {isConnected && <MyShips />}
       </div>
     </main>

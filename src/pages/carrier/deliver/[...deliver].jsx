@@ -13,6 +13,9 @@ const inter = Inter({
 const index = () => {
   const router = useRouter();
   const { deliver } = router.query;
+
+  console.log("DELIVER", deliver);
+
   const { config } = usePrepareContractWrite({
     address: ADDRESS,
     abi: ABI,

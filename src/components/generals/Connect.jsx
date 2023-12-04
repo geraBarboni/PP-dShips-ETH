@@ -50,7 +50,7 @@ const Connect = () => {
         </div>
       )}
       <Link
-        className="bg-schemes-light-primary text-schemes-light-onPrimary py-2 px-4 rounded-full flex gap-2 w-fit items-center"
+        className="text-schemes-light-primary py-2 px-4 rounded-full flex gap-2 w-fit items-center"
         href="/docs"
       >
         Docs

@@ -15,6 +15,8 @@ const index = () => {
   const router = useRouter();
   const { ship } = router.query;
 
+  console.log("SHIP", [ship]);
+
   const { config } = usePrepareContractWrite({
     address: ADDRESS,
     abi: ABI,

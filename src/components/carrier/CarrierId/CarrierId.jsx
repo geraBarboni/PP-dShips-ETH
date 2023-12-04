@@ -11,7 +11,7 @@ import { ABI, ADDRESS } from "@/config";
 import { FaRegIdCard } from "@react-icons/all-files/fa/FaRegIdCard";
 import { FaArrowRight } from "@react-icons/all-files/fa/FaArrowRight";
 import { IoClose } from "@react-icons/all-files/io5/IoClose";
-import dot from "cryptocurrency-icons/svg/icon/dot.svg";
+import matic from "cryptocurrency-icons/svg/icon/matic.svg";
 
 import { Inter } from "next/font/google";
 import Image from "next/image";
@@ -65,23 +65,22 @@ const CarrierId = () => {
           ) : becomeCarrier ? (
             <div>
               <p className="mb-2">Guarantee payment (example)</p>
-              <div className="flex gap-2 bg-schemes-light-background rounded-full py-1.5 pl-3 pr-2 text-schemes-light-onPrimaryContainer">
+              <div className="flex gap-2 bg-schemes-light-background rounded-full py-1 px-2 text-schemes-light-onPrimaryContainer">
                 <input
                   type="number"
-                  className="rounded-full ring-0 flex"
+                  className="rounded-full ring-0 flex w-full"
                   placeholder="10"
                   disabled
                 />
-                <div className="flex gap-2 items-center pr-5">
-                  <Image src={dot} />
-                  <p>DOT</p>
+                <div className="flex gap-2 items-center w-full">
+                  <Image src={matic} />
+                  <button
+                    onClick={() => write()}
+                    className="bg-schemes-light-primary text-schemes-light-onPrimary rounded-full p-2 hover:bg-coreColors-primary transition duration-200"
+                  >
+                    <FaArrowRight />
+                  </button>
                 </div>
-                <button
-                  onClick={() => write()}
-                  className="bg-schemes-light-primary text-schemes-light-onPrimary rounded-full p-2 hover:bg-coreColors-primary transition duration-200"
-                >
-                  <FaArrowRight />
-                </button>
               </div>
               <p className="mt-4 text-sm">
                 To become a verified carrier you need to make a guarantee
