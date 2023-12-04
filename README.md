@@ -30,7 +30,7 @@ By generating a ZK Proof that corroborates if the owner of the package is who he
 
 ## How we built it
 
-Actually as mentioned before, dShips is a proof of concept, conformed by a smart contract in solidity deployed in XXXXX and a front end developed in NextJs.
+Actually as mentioned before, dShips is a proof of concept, conformed by a smart contract in solidity deployed in Mumbai and a front end developed in NextJs.
 
 ## Challenges we ran into
 
