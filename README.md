@@ -6,10 +6,10 @@ In some parts of the world to receive a package of a purchase is necessary to gi
 
 It serves as a tool for online stores that need to ship their products to buyers who choose to receive packages anonymously, guaranteeing their correct delivery. Generating anonymous jobs.
 
-##How is this accomplished?
+## How is this accomplished?
 By generating a ZK Proof that corroborates if the owner of the package is who he claims to be.
 
-##Step by step
+## Step by step
 
 1. A purchase is made in a marketplace
 <img width="800" alt="1" src="https://github.com/geraBarboni/dShips/assets/63870012/11035e30-c64a-4239-949d-6448ab4a8874">
