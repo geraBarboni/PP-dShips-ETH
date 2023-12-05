@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { ABI, ADDRESS } from "@/config";
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";

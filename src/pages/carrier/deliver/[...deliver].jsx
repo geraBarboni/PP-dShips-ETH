@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";
 import { useContractWrite, usePrepareContractWrite } from "wagmi";

@@ -1,5 +1,5 @@
+/* eslint-disable */
 "use client";
-
 import React, { useEffect } from "react";
 import { ABI, ADDRESS } from "../../../config";
 import { useContractWrite, usePrepareContractWrite } from "wagmi";

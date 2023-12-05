@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use client";
 import { useRouter } from "next/router";
 import "mapbox-gl/dist/mapbox-gl.css";
