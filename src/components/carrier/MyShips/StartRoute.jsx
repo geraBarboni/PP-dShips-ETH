@@ -1,5 +1,4 @@
 import { ABI, ADDRESS } from "@/config";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";
 import { useContractWrite, usePrepareContractWrite } from "wagmi";

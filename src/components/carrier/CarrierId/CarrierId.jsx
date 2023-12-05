@@ -11,7 +11,7 @@ import { ABI, ADDRESS } from "@/config";
 import { FaRegIdCard } from "@react-icons/all-files/fa/FaRegIdCard";
 import { FaArrowRight } from "@react-icons/all-files/fa/FaArrowRight";
 import { IoClose } from "@react-icons/all-files/io5/IoClose";
-import matic from "cryptocurrency-icons/svg/icon/matic.svg";
+import usdc from "cryptocurrency-icons/svg/icon/usdc.svg";
 
 import { Inter } from "next/font/google";
 import Image from "next/image";
@@ -73,7 +73,7 @@ const CarrierId = () => {
                   disabled
                 />
                 <div className="flex gap-2 items-center w-full">
-                  <Image src={matic} />
+                  <Image alt="MATIC" src={usdc} />
                   <button
                     onClick={() => write()}
                     className="bg-schemes-light-primary text-schemes-light-onPrimary rounded-full p-2 hover:bg-coreColors-primary transition duration-200"
@@ -87,7 +87,7 @@ const CarrierId = () => {
                 payment, to guarantee the credibility of your work and to
                 guarantee no scam or package theft, if there is any of these
                 problems we will take part or all of your guarantee payment and
-                we could block your account. Don't steal!
+                we could block your account. Do not steal!
               </p>
             </div>
           ) : (
